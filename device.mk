@@ -419,6 +419,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Rootdir / Init files
 PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
