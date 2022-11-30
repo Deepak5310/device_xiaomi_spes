@@ -16,3 +16,5 @@ git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_qcom_co
 git clone https://github.com/PixelExperience-Devices/device_qcom_vendor-common.git -b thirteen device/qcom/vendor-common
 git clone https://github.com/PixelExperience-Devices/device_qcom_qssi.git -b thirteen device/qcom/qssi
 git clone https://github.com/PixelExperience/vendor_qcom_opensource_commonsys_dpm.git -b thirteen vendor/qcom/opensource/commonsys/dpm
+rm -rf packages/resources/devicesettings
+git clone https://github.com/PixelExperience/packages_resources_devicesettings.git -b thirteen packages/resources/devicesettings
